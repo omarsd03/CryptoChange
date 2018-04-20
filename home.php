@@ -1,9 +1,11 @@
 <?php session_start();
 
-	if (isset($_SESSION['usuario'])) {
+    require 'view/home.view.php';
+
+	/*if (isset($_SESSION['usuario'])) {
 		require 'vista/home.view.php';
 	} else {
 		header('Location: login.php');
-	}
+	}*/
 	
 ?>
