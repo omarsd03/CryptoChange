@@ -16,10 +16,10 @@
 
             <div class="collapse navbar-collapse" id="navegacion-fm">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Inicio</a></li>
-                    <li><a href="#">Obras Publicas</a></li>
-                    <li><a href="#">Contratos Con Empresas</a></li>
-                    <li><a href="#">Estadisticas</a></li>
+                    <li class=""><a href="#"><span class="icon-home3"></span> Inicio</a></li>
+                    <li><a href="#"><span class="icon-file-text"></span> Obras Publicas</a></li>
+                    <li><a href="#"><span class="icon-coin-dollar"></span> Contratos Con Empresas</a></li>
+                    <li><a href="#"><span class="icon-stats-dots"></span> Estadisticas</a></li>
                 </ul>
 
                 <form action="" class="navbar-form navbar-right" role="search">

@@ -2,10 +2,12 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<link href='images/logo/logo.png' rel='shortcut icon' type='image/png'>
 	<title>Crypto Change</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="icomoon/style.css">
 </head>
 <body>
 
@@ -14,24 +16,17 @@
 	<section class="jumbotron">
 		<div class="container">
 			<img class="img img-responsive" src="images/logo/light_logo_horizontal.jpg" alt="crypto change">
-			<p align = "center">Acceso a la transparencia de información</p align = "center">
+			<p align = "center">Acceso a la transparencia de información</p>
 		</div>
 	</section>
 
 	<section class="main container">
 		<div class="row">
 			<section class="posts col-md-9">
-				<div class="miga-de-pan">
-					<ol class="breadcrumb">
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Categorias</a></li>
-						<li class="active">Diseño Web</li>
-					</ol>
-				</div>
 
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="OSDFAF">
+						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">22 de Diciembre de 2017</a>
@@ -57,7 +52,7 @@
 		
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="img/2.jpg" alt="OSDFAF">
+						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">21 de Febrero de 2018</a>
@@ -83,7 +78,7 @@
 		
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="img/3.jpg" alt="OSDFAF">
+						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">06 de Mayo de 2017</a>
