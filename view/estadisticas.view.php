@@ -23,7 +23,38 @@
 		<div class="row">
 			<section class="posts col-md-9">
 				<div class="container">
-                    
+					<script class="grafico" type="text/javascript">
+						window.onload = function () {
+							var dataLength = 0;
+							var data = [];
+							$.getJSON("js/data.php", function (result) {
+								dataLength = result.length;
+								for (var i = 0; i < dataLength; i++) {
+									data.push({
+										x: parseInt(result[i].valorx),
+										y: parseInt(result[i].valory)
+									});
+								}
+								;
+								chart.render();
+							});
+							var chart = new CanvasJS.Chart("chart", {
+								title: {
+									text: "Graficacion de Gastos de Funcionarios"
+								},
+								axisX: {
+									title: "Valores X",
+								},
+								axisY: {
+									title: "Valores Y",
+								},
+								data: [{type: "line", dataPoints: data}],
+							});
+						}
+				</script>
+
+				<div id="chart">
+				</div>
                 </div>
 
 			</section>
@@ -37,5 +68,10 @@
 	
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/canvasjs.min.js"></script>
 </body>
 </html>
