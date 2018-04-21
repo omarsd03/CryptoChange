@@ -1,11 +1,11 @@
 <?php session_start();
 
-    if (isset($_SESSION['usuario'])) {
+    /*if (isset($_SESSION['usuario'])) {
         header('Location: index.php');
     }
     else {
         header('Location: login.php');
-    }
+    }*/
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$usuario = filter_var(strtolower($_POST['usuario']),FILTER_SANITIZE_STRING);
@@ -51,6 +51,6 @@
 		}
 	}
 
-	require 'vista/login.view.php';
+	require '../view/login.view.php';
 
 ?>
