@@ -16,7 +16,7 @@
 	<section class="jumbotron">
 		<div class="container">
 			<img class="img img-responsive" src="images/logo/light_logo_horizontal.jpg" alt="crypto change">
-			<p align = "center">Acceso a la transparencia de información</p>
+			<h3 align = "center">Acceso a la transparencia de información</h3>
 		</div>
 	</section>
 
@@ -26,7 +26,7 @@
 
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
+						<img class="img img-thumbnail" src="images/documento_.png" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">22 de Diciembre de 2017</a>
@@ -52,7 +52,7 @@
 		
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
+						<img class="img img-thumbnail" src="images/documento_.png" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">21 de Febrero de 2018</a>
@@ -78,7 +78,7 @@
 		
 				<article class="post clearfix">
 					<a href="#" class="thumb pull-left">
-						<img class="img img-thumbnail" src="images/documento_validado.jpg" alt="Documento">
+						<img class="img img-thumbnail" src="images/documento_.png" alt="Documento">
 					</a>
 					<h2 class="post-title">
 						<a href="#">06 de Mayo de 2017</a>
