@@ -4,8 +4,8 @@
 }
 
 .jumbotron {
-    background: #428bca; /*Color del jumbotron*/
-    color: #fff; /*Color del texto*/
+    background: #fff; /*Color del jumbotron*/
+    color: #000; /*Color del texto*/
     padding: 20px 0; /*El primero es arriba y abajo y a los lados es el segundo*/
 }
 

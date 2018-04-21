@@ -2,7 +2,7 @@
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand"><img class="img img-responsive" src="images/logo/dark_logo_horizontal.jpg" alt="crypto change" width="80" height="50">
+                <a href="#" class="navbar-brand">
                 </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
                     <span class="sr-only"> Desplegar / Ocultar Menu</span>

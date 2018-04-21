@@ -13,8 +13,8 @@
 
 	<section class="jumbotron">
 		<div class="container">
-			<h1>Bienvenido</h1>
-			<p>Acceso a la transparencia de información</p>
+			<img class="img img-responsive" src="images/logo/light_logo_horizontal.jpg" alt="crypto change">
+			<p align = "center">Acceso a la transparencia de información</p align = "center">
 		</div>
 	</section>
 
