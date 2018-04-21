@@ -15,7 +15,7 @@
 
 	<section class="jumbotron">
 		<div class="container">
-			<img class="img img-responsive" src="images/logo/light_logo_horizontal.jpg" alt="crypto change">
+			<img class="img img-responsive" src="images/logo/logo_horizontal.png" alt="crypto change">
 			<h2 align = "center">Blockchain de acceso a la transparencia de información</h2>
 		</div>
 	</section>

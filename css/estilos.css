@@ -38,6 +38,10 @@
 	border-radius:50px;
 }
 
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #29aae3;
+}
+
 .jumbotron {
     background: #fff; /*Color del jumbotron*/
     color: #000; /*Color del texto*/
