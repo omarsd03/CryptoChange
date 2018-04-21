@@ -29,23 +29,24 @@
                     <form action="" class="">
 
                         <div class="input-group">
-                            <label for="nombre">Nombre:</label>
+                            <label for="nombre">Nombre Del Tema:</label>
                             <input class="form-control" id="nombre" type="text" placeholder="Nombre">
                         </div>
                         <br>
                         <div class="input-group">
-                            <label for="option">Elige una opcion:</label>
+                            <label for="option">Categoria del Tema:</label>
                             <select class="form-control" name="" id="option">
-                                <option value="">Opcion #1</option>
-                                <option value="">Opcion #2</option>
-                                <option value="">Opcion #3</option>
-                                <option value="">Opcion #4</option>
-                                <option value="">Opcion #5</option>
+                                <option value="">-- Seleccione un tema --</option>
+                                <option value="Politica">Politica</option>
+                                <option value="Gastos">Gastos</option>
+                                <option value="Queja">Queja</option>
+                                <option value="Propuesta">Propuesta</option>
+                                <option value="Otro">Otro</option>
                             </select>
                         </div>
                         <br>
                         <div class="input-group">
-                            <label for="mensaje">Mensaje:</label>
+                            <label for="mensaje">Descripcion del Tema:</label>
                             <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje:"></textarea>
                         </div>
                         <br>
