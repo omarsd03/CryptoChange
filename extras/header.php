@@ -20,7 +20,7 @@
                     <li><a href="obras.php"><span class="icon-file-text"></span> Obras Publicas</a></li>
                     <li><a href="estadisticas.php"><span class="icon-stats-dots"></span> Estadisticas</a></li>
                     <li><a href="foro.php"><span class="icon-bubbles3"></span> Foro</a></li>
-                    <li><a href="login/login.php"><span class="icon-users"></span> Log In</a></li>
+                    <li><a href="login.php"><span class="icon-users"></span> Log In</a></li>
                 </ul>
 
                 <form action="" class="navbar-form navbar-right" role="search">

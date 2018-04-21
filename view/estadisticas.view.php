@@ -15,24 +15,16 @@
 
 	<section class="jumbotron">
 		<div class="container">
-			
-            <h2 align = "center">Sube tu documento para validarlo</h2>
-            <p align = "center">Los documentos deben ser legitimos y con una estructura definida. Ten en cuenta que el no cumplir con estos requisitos, puede traer consecuencias legales.</p>
+			<h1 align = "center">Estadisticas de Obras Publicas</h1>
 		</div>
 	</section>
 
 	<section class="main container">
 		<div class="row">
 			<section class="posts col-md-9">
-                
-                <form action="php/upload.php" method="post" enctype="multipart/form-data">
-  
-					<b>Enviar un nuevo archivo: </b>
-					<br>
-					<input name="userfile" type="file">
-					<br>
-					<input type="submit" value="Enviar">
-				</form>
+				<div class="container">
+                    
+                </div>
 
 			</section>
 

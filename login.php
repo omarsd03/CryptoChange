@@ -51,6 +51,6 @@
 		}
 	}
 
-	require '../view/login.view.php';
+	require 'view/login.view.php';
 
 ?>

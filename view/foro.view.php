@@ -15,8 +15,8 @@
 
 	<section class="jumbotron">
 		<div class="container">
-			<img class="img img-responsive" src="images/logo/light_logo_horizontal.jpg" alt="crypto change">
-			<h3 align = "center">Blockchain de acceso a la transparencia de información</h3>
+
+			<h1 align = "center">Bienvenido Al Foro Crypto Change</h1>
 		</div>
 	</section>
 

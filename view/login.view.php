@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../css/estilos.css">
-	<link rel="stylesheet" href="../css/bootstrap.css">
-	<link rel="stylesheet" href="../icomoon/style.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="icomoon/style.css">
 	<title>Iniciar Sesion</title>
-	<link href='../images/logo/logo.png' rel='shortcut icon' type='image/png'>
+	<link href='images/logo/logo.png' rel='shortcut icon' type='image/png'>
 </head>
 <body>
 
 	<header>
 		<div class="container" align="center">
-			<a href="../home.php"><img class="img-responsive" src="../images/logo/logo.png" alt="Crypto Change" width="180" height="150" align="center"></a>
+			<a href="home.php"><img class="img-responsive" src="images/logo/logo.png" alt="Crypto Change" width="180" height="150" align="center"></a>
 		</div>
 	</header>
 

@@ -40,6 +40,6 @@
 		}
 	}
 
-	require 'vista/registro.view.php';
+	require 'view/registro.view.php';
 
 ?>
