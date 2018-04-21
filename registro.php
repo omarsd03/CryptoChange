@@ -15,7 +15,7 @@
 			$errores .= '<li>Por favor llena los campos correctamente</li>';
 		} else {
 			try {
-				$conexion = new PDO('mysql:host=localhost;dbname=loginseguridad','root','omar');
+				$conexion = new PDO('mysql:host=localhost;dbname=cryptochange','root','omar');
 			} catch (PDOException $e) {
 				echo "Error: " . $e->getMessage();
 			}
@@ -28,15 +28,20 @@
 				$errores .= '<li> El nombre de usuario ya existe </li>';
 			}
 
+			$password = hash('sha512', $password);
+			$password2 = hash('sha512', $password2);
+
 			if ($password != $password2) {
-				$errores .= '<li> Las contraseñas no coinciden </li>';
+				$errores .= '<li> Las contraseñas no son iguales </li>';
 			}
 		}
 
 		if ($errores == '') {
-			$statement = $conexion->prepare('INSERT INTO usuarios (id, usuario, pass, intentos) VALUES (null, :usuario, :pass, :intentos)');
-			$statement->execute(array(':usuario' => $usuario, ':pass' => $password, ':intentos' => $intentos));
-			echo "<script>alert('Usuario registrado correctamente');window.location.href='login.php';</script>";
+			$statement = $conexion->prepare('INSERT INTO usuarios (id, usuario, pass) VALUES (null, :usuario, :pass)');
+			$statement->execute(array(':usuario' => $usuario, ':pass' => $password));
+			//echo "Datos Guardados";
+
+			header('Location: login.php');
 		}
 	}
 

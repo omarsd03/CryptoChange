@@ -1,4 +1,4 @@
-<?php session_start();
+<?php
 
     require 'view/home.view.php';
 

@@ -16,24 +16,24 @@
 	<section class="jumbotron">
 		<div class="container">
 
-			<h1 align = "center">Bienvenido Al Foro Crypto Change</h1>
+			<h2 align = "center">Bienvenido Al Foro Crypto Change</h2>
 		</div>
 	</section>
 
 	<section class="main container">
 		<div class="row">
-			<section class="posts col-md-9">
+			<section class="posts">
 				<div class="container">
                     <br/>
                     <h1>Crea un nuevo tema a debatir</h1>
                     <form action="" class="">
 
-                        <div class="input-group">
+                        <div class="input-group col-lg-3">
                             <label for="nombre">Nombre Del Tema:</label>
                             <input class="form-control" id="nombre" type="text" placeholder="Nombre">
                         </div>
                         <br>
-                        <div class="input-group">
+                        <div class="input-group col-lg-3">
                             <label for="option">Categoria del Tema:</label>
                             <select class="form-control" name="" id="option">
                                 <option value="">-- Seleccione un tema --</option>
@@ -45,7 +45,7 @@
                             </select>
                         </div>
                         <br>
-                        <div class="input-group">
+                        <div class="input-group col-lg-3">
                             <label for="mensaje">Descripcion del Tema:</label>
                             <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje:"></textarea>
                         </div>
@@ -55,8 +55,7 @@
                 </div>
 
 			</section>
-
-			<?php require 'extras/sidebar.php'; ?>
+            
 
 		</div>
 	</section>
