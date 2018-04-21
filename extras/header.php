@@ -16,10 +16,11 @@
 
             <div class="collapse navbar-collapse" id="navegacion-fm">
                 <ul class="nav navbar-nav">
-                    <li class=""><a href="#"><span class="icon-home3"></span> Inicio</a></li>
+                    <li><a href="#"><span class="icon-home3"></span> Inicio</a></li>
                     <li><a href="#"><span class="icon-file-text"></span> Obras Publicas</a></li>
-                    <li><a href="#"><span class="icon-coin-dollar"></span> Contratos Con Empresas</a></li>
                     <li><a href="#"><span class="icon-stats-dots"></span> Estadisticas</a></li>
+                    <li><a href="#"><span class="icon-bubbles3"></span> Foro</a></li>
+                    <li><a href="#"><span class="icon-users"></span> Log In</a></li>
                 </ul>
 
                 <form action="" class="navbar-form navbar-right" role="search">

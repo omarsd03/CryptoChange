@@ -18,6 +18,17 @@
     padding: 20px 50px;
 }
 
+/*Cuando la seleccion esta activa*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #fff;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	border-radius:50px;
+}
+
+/*Cuando el puntero pasa sobre el menu*/
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #000;
     background-color: #fff;
