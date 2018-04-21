@@ -17,20 +17,9 @@
             <div class="collapse navbar-collapse" id="navegacion-fm">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Inicio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                            Categorias <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Categoria #1</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Categoria #2</a></li>
-                            <li><a href="#">Categoria #3</a></li>
-                            <li><a href="#">Categoria #4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Obras Publicas</a></li>
+                    <li><a href="#">Contratos Con Empresas</a></li>
+                    <li><a href="#">Estadisticas</a></li>
                 </ul>
 
                 <form action="" class="navbar-form navbar-right" role="search">
