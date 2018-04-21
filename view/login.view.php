@@ -13,7 +13,7 @@
 
 	<header>
 		<div class="container" align="center">
-			<img class="img-responsive" src="../images/logo/logo.png" alt="Crypto Change" width="180" height="150" align="center";>
+			<a href="../home.php"><img class="img-responsive" src="../images/logo/logo.png" alt="Crypto Change" width="180" height="150" align="center"></a>
 		</div>
 	</header>
 
