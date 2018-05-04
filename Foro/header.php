@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>FORO | CODEDRINKS</title>
+        <link href='../images/logo/logo.png' rel='shortcut icon' type='image/png'>
+        <title>FORO | CRYPTO CHANGE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/estilo.css" />
+        <link rel="stylesheet" href="css/bootstrap.css">
 
     </head>
     <body>
@@ -13,7 +15,9 @@
                 <div class="cajaBuscar">
                     <form action='buscar.php' method='post'>
                         <input type='text' name='busqueda' required="required">
-                        <input type='submit' name='Buscar' value='Buscar' class="btn">
+                        <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
                     </form>
                 </div>
 
@@ -34,7 +38,7 @@
                         <a href="salir.php">SALIR</a>
                         <?php
                     } else {
-                        ?><a href="registrarse.php">registrarse</a> - o - <a href="entrar.php">ingresar</a><?php
+                        ?><a href="Foro/registrarse.php">registrarse</a> - o - <a href="Foro/entrar.php">ingresar</a><?php
                     }
                     ?>
                 </div>
@@ -47,6 +51,6 @@
             </div>
 
             <div class="cajaTitulo">
-                <h2><a href="<?php echo Conexion::ruta(); ?>">Codedrinks</a></h2>
-                <h4>Bienvenidos a codedrinks.</h4>
+                <h2><a href="<?php echo Conexion::ruta(); ?>">Crypto Change</a></h2>
+                <h4>Bienvenidos al foro de Crypto Change.</h4>
             </div>

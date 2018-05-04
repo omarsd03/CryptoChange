@@ -1,0 +1,269 @@
+body {
+    background:#F6F6F6;
+    color:#3E3E3E;
+    font-family:"PT Sans Narrow","Arial Narrow",Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+a{
+    text-decoration: none;
+    color:#3E3E3E;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #43a6df;
+}
+
+/********************************************************
+**** FORMULAIO CSS
+********************************************************/
+.formulario{
+    padding: 20px;
+}
+
+label {
+display: block;
+margin: 5px 0 0 0;
+}
+
+
+input:focus {
+border: 2px solid #000;
+background: #F3F3F3;
+}
+
+select {
+    width:240px;
+    padding:5px;
+    border:1px solid #E7E7E7;
+    margin-right:10px;
+}
+input#submit {
+    padding:5px 30px;
+    border:1px solid #E7E7E7;
+    margin-right:20px;
+    background:#444;
+    color:#FFF;
+}
+
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=url] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    height: 29px;
+    margin: 0;
+    padding: 0 8px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.btn {
+  margin: 1em 0;
+    min-width: 46px;
+    text-align: center;
+    color: #444;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    padding: 0 8px;
+    line-height: 27px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -ms-transition: all 0.218s;
+    -o-transition: all 0.218s;
+    transition: all 0.218s;
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.btn a:hover{
+  margin: 1em 0;
+    min-width: 46px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    padding: 0 8px;
+    line-height: 27px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -ms-transition: all 0.218s;
+    -o-transition: all 0.218s;
+    transition: all 0.218s;
+    border: 1px solid #dcdcdc;
+    background-color: #43a6df;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.btn-link{
+    padding: 3px;
+    background: #2B6FB6;
+    color: white;
+}
+
+/********************************************************
+**** FORMULAIO CSS
+********************************************************/
+#CajaPrincipal{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cajaBuscar{
+    width: 500px;
+    float: left;
+}
+
+.cajaRegistro{
+    width: 500px;
+    float: left;
+    text-align: right;
+}
+
+.cajaBanner{
+    width: 1000px;
+    height: 150px;
+    background: #43a6df;
+}
+/****** CATEGORIAS FORO *****/
+.caja{
+    background: white;
+    border: #dcdcdc solid 1px;
+    margin: 0 0 10px 0;
+}
+.categorias{
+    background: #43a6df;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+/***** foro ****/
+.foro{
+    padding: 5px 0 5px 0;
+    border-bottom: #dcdcdc solid 1px;
+}
+.foro_icono{
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+.foro_titulo{
+    float: left;
+    width: 555px;
+}
+
+.temas_mensajes{
+    float: left;
+    width: 170px;
+}
+
+.ultimocomentario{
+    float: left;
+    width: 170px;
+}
+/***** temas ****/
+.temas_titulo{
+    float: left;
+    width: 645px;
+}
+.temas_respuestas{
+    float: left;
+    width: 170px;
+}
+.temas_ultimo{
+    float: left;
+    width: 150px;
+}
+
+.nuevotema{
+    text-align: right;
+    width: 100%;
+}
+
+.nuevotema a{
+    background: #dcdcdc;
+    padding: 8px;
+}
+
+/**** info ****/
+.temausuario{
+    padding: 5px 0 5px 0;
+    border-bottom: #dcdcdc solid 1px;
+    background: #dcdcdc;
+}
+.tema{
+    padding: 10px;
+    font-size: 14px;
+}
+.avatar{
+    width: 200px;
+    float: left;
+    padding: 0 0 0 10px;
+}
+.usuario{
+    width: 500px;
+    float: left;
+}
+.datos{
+    width: 200px;
+    float: left;
+}
+.firma{
+    padding: 10px;
+    border-bottom: #dcdcdc solid 1px;
+    background: #dcdcdc;
+}
+
+.tex{
+    width: 100%;
+}
+
+footer{
+    background: #3E3E3E;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
